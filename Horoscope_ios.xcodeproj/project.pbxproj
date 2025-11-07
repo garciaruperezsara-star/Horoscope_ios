@@ -48,16 +48,6 @@
 			path = Horoscope_ios;
 			sourceTree = "<group>";
 		};
-		6CD3C01D2EBC956C00476AC6 /* Horoscope_iosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Horoscope_iosTests;
-			sourceTree = "<group>";
-		};
-		6CD3C0272EBC956C00476AC6 /* Horoscope_iosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Horoscope_iosUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				6CD3C0062EBC956B00476AC6 /* Horoscope_ios */,
-				6CD3C01D2EBC956C00476AC6 /* Horoscope_iosTests */,
-				6CD3C0272EBC956C00476AC6 /* Horoscope_iosUITests */,
 				6CD3C0052EBC956B00476AC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				6CD3C01C2EBC956C00476AC6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6CD3C01D2EBC956C00476AC6 /* Horoscope_iosTests */,
-			);
 			name = Horoscope_iosTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				6CD3C0262EBC956C00476AC6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6CD3C0272EBC956C00476AC6 /* Horoscope_iosUITests */,
 			);
 			name = Horoscope_iosUITests;
 			packageProductDependencies = (
