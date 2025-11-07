@@ -9,6 +9,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    @IBOutlet weak var imageDetailView: UIImageView!
+    @IBOutlet weak var dateDetailText: UILabel!
+    @IBOutlet weak var descriptionDetailText: UILabel!
+    @IBOutlet weak var favItem: UIBarButtonItem!
     var horoscope:Horoscope!
 
     override func viewDidLoad() {
@@ -16,6 +20,8 @@ class DetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         navigationItem.title = horoscope.name
+        imageDetailView.image = horoscope.getSignIcon()
+        dateDetailText.text = horoscope.date
     }
     
 

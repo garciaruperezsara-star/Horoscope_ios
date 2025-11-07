@@ -10,11 +10,12 @@ import UIKit
 class MainViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
-    
+    @IBOutlet weak var favouriteImage: UIImageView!
     let horoscopeList: [Horoscope] = Horoscope.getAll()
     
     override func viewDidLoad() {
         tableView.dataSource = self
+        //favouriteImage.isHidden = true
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
